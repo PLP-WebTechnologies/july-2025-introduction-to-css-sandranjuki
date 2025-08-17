@@ -1,0 +1,82 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+.header {
+    background: #0066cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav a {
+    color: #ffdd00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+/* Card sections */
+.card {
+    background: #ffffff;
+    border: 3px solid #ff9900;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 3px 3px 12px rgba(0,0,0,0.15);
+}
+
+/* Demonstrating Box Model */
+.card p {
+    margin: 12px 0;
+    padding: 12px;
+    border: 2px dashed #009688;
+    background: #e0f7fa;
+}
+
+/* Button styling */
+.btn {
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e64a19;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #ffdd00;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
